@@ -1,0 +1,4 @@
+运行环境 python2.7 pysvn库
+svnlogConfig 配置好 SVN地址 SVN用户名密码 开始时间 结束时间 执行run.bat
+会输出 2个 svnLog_style1  svnLog_style2 日志文件
+已经去重复，去空日志
