@@ -214,7 +214,7 @@ if __name__ == '__main__':
     with open(filename) as file_object:
         repo_addr2s = file_object.readlines()  # 文件行（仓库名称）转换为列表存放
     repo_addr = ''
-    repo_addr1 = "https://39.98.250.54/svn/"  # SVN服务器网址
+    repo_addr1 = "https://IP/svn/"  # SVN服务器网址
     LogList = []
     print('正在运行中，请稍候...')
     # 读取各代码仓库日志并写入文件
